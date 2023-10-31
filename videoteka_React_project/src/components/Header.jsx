@@ -6,6 +6,7 @@ function Header() {
     <div className="header">
       <div id="title">Videoteka "Vremenska kapsula"</div>
       <NavBar />
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, corrupti.</p>
     </div>
   );
 }
