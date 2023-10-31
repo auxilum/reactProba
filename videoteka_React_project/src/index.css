@@ -1,0 +1,82 @@
+:root {
+  background-image: url(./assets/film_strip_proba.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./assets/NeonRetroDemoVersionRegular-rgPdx.otf);
+}
+@font-face {
+  font-family: retrosecond;
+  src: url(./assets/70SdiscopersonaluseBold-w14z2.otf);
+}
+
+#title {
+  text-align: center;
+  font-size: 60px;
+  font-family: myFirstFont;
+  color: #6b0336;
+}
+
+.header {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  margin-top: 0;
+  background-color: #9bc5ad;
+}
+
+nav {
+ 
+  list-style-type: none;
+}
+
+.navContainer {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: space-evenly;
+}
+
+.link {
+  text-decoration: none;
+    cursor: pointer;
+    font-family: retrosecond;
+    font-size: 35px;
+}
+
+.backgroundMain {
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ff7900;
+}
+
+
+#firstParagraph {
+  background-color: #f1e6c5;
+  border-radius: 25% 5%;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  text-align: left;
+  font-family: Delicious Handrawn;
+  font-size: 25px;
+  line-height: 1.5;
+  width: 50%;
+  margin: auto;
+}
